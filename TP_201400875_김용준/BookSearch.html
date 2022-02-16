@@ -1,0 +1,28 @@
+<!doctype html>
+<head lang = "ko">
+	<meta charset = "utf-8">
+	<title>Database SQL</title>
+</head>
+<body>
+	<p>201400875 김용준</p>
+
+		<form method="post" action="BookSearch.jsp">
+		<p>도서명 : <input type="text" name="title1" id="title1" required>
+			<select name="sel1">
+			<option value="AND1">AND</option>
+			<option value="OR1">OR</option>
+			<option value="NOT1">NOT</option>   
+			</select></p>
+		<p>저자 : <input type="text" name="author1">
+			<select name="sel2">
+			<option value="AND2">AND</option>
+			<option value="OR2">OR</option>
+			<option value="NOT2">NOT</option>
+			</select></p>
+		<p>출판사  : <input type="text" name="pub1"></p>
+		<p><input type="submit" value="submit"></p>
+		</form>
+		<!-- 책 검색을 위한 html입니다. 도서명, 저자, 출판사를 통해 검색을 하게 만들었고 도서명은 required로 작성하였지만, 원하지 않을 경우 공백을 줘도 됩니다. 
+		충남대도서관 웹처럼 입력순서는 구현하지 못했습니다. AND, OR, NOT 을 통해 검색 조건에 변화를 줄 수 있습니다.   -->
+</body>
+</html>
