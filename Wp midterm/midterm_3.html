@@ -1,0 +1,50 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>midterm_3</title>
+		    <meta charset="utf-8">
+    <link rel="stylesheet" href="midterm_3.css" />
+	</head>
+	<body>
+		주소 : <form name='ace'>
+		<input id ='addre' type='text'> <br><br>
+		<table>
+		<tr>
+		<td>선택</td>
+		<td>메뉴</td>
+		<td>가격</td>
+		<td>수량</td>
+		<td>합계</td>
+		</tr>
+
+		<tr>
+		<td><input type='checkbox' name='che1' value='1'></td>
+		<td>라면</td>
+		<td>3000</td>
+		<td><input type='text' id='numb1'></td>
+		<td id = 'price1'></td>
+		</tr>
+
+		<tr>
+		<td><input type='checkbox' name='che2' value='1'></td>
+		<td>떡볶이</td>
+		<td>4000</td>
+		<td><input type='text' id='numb2'></td>
+		<td id = 'price2'></td>
+		</tr>
+
+		<tr>
+		<td><input type='checkbox' name='che3' value='1'></td>
+		<td>계란</td>
+		<td>500</td>
+		<td><input type='text' id='numb3'></td>
+		<td id ='price3'></td>
+		</tr>
+		</table>
+		<br> 배달료는 3000원입니다. (단, 총 구매 금액이 20000원 이상이면 배달료 무료) <br>
+		<p id='result'> </p>
+		<button type='button' onclick = 'SUBMIT()' name='button'>주문하기</button></form>
+
+    <script type="text/javascript" src="midterm_3.js"></script>
+		</body>
+</html>
